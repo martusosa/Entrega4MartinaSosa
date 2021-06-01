@@ -1,0 +1,253 @@
+/*INDEX*/
+.titulo{
+    font-size: 70px;
+    color: black;
+    text-align-last: center;
+    font-family: 'KoHo', sans-serif;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+h1{
+    animation-name: aparecer;
+    animation-duration: 4s;
+}
+.menu__li {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    text-align: center;
+ }
+/*INDUMENTARIA*/
+.titulo{
+    font-family: 'KoHo', sans-serif;
+}
+.letra{
+        color:rgb(56, 29, 29);
+        font-style: oblique;
+        font-size: 40px;
+}
+.centrar{
+    text-align: center;
+}
+.interlineado{
+    line-height: 1.6;
+}
+.fondo{
+    background-image: radial-gradient(white, rgb(163, 162, 162));
+}
+#tres{ 
+    color: black;
+    font-size: 30pt;
+    font-family: 'KoHo', sans-serif;
+}
+.mayusculas {
+    text-transform: uppercase;
+}
+#trescuatro{ 
+    font-size: 15pt;
+    font-family: 'KoHo', sans-serif;
+}
+.bordes{
+    border: solid 2px black;
+    padding: 10px;
+    display: inline;
+}
+.nuestros{
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    left: 20px;
+    font-family: 'KoHo', sans-serif;
+}
+.padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.margen{
+    margin: 15px;
+}
+.imagen{
+    margin: 10px;
+}
+.jean{
+    position: relative;
+    left: 20px;
+    top: 300px;
+    font-size: 18px;
+}
+.jean2{
+    position: relative;
+    left: 40px;
+    font-size: 18px;
+}
+.jean3{
+    position: relative;
+    left: 50px;
+    top: 300px;
+    font-size: 18px;
+}
+.jean4{
+    position: relative;
+    left: 90px;
+}
+.jean5{
+    position: relative;
+    left: 100px;
+    top: 300px;
+    font-size: 18px;
+
+}
+.jean6{
+    position: relative;
+    left: 1px;
+    top: 290px;
+    font-size: 18px;
+}
+.jean7{
+    position: relative;
+    left: 15px;
+    top: 35px;
+}
+.jean8{
+    position: relative;
+    left: 30px;
+    top: 290px;
+    font-size: 18px;
+}
+.jean9{
+    position: relative;
+    left: 60px;
+    top: 300px;
+}
+.jean10{
+    position: relative;
+    left: 50px;
+    top: 35px;
+}
+.precio{
+    position: relative;
+    left: 60px;
+    font-size: 15px;
+}
+.padre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.buzorojo{
+    position: relative;
+    left: 10px;
+    top: 260px;
+    font-size: 18px;
+}
+.buzorosa{
+    position: relative;
+    left: 50px;
+    top: 260px;
+    font-size: 18px;  
+}
+.buzonegro{
+    position: relative;
+    left: 100px;
+    top: 260px;
+    font-size: 18px;  
+}
+.buzoblanco{
+    position: relative;
+    left: 20px;
+    top: 290px;
+    font-size: 18px;
+}
+.imagenbuzo{
+    position: relative;
+    left: 10px;
+    top: 40px;
+}
+.buzoamarillo{
+    position: relative;
+    left: 40px;
+    top: 290px;
+    font-size: 18px;
+}   
+.imagenBuzo2{
+    position: relative;
+    left: 40px;
+    top: 35px;
+}
+.buzobatik{
+    position: relative;
+    left: 60px;
+    top: 290px;
+    font-size: 18px;
+}
+.batikimagen{
+    position: relative;
+    left: 50px;
+    top: 35px;
+}
+.topmarron{
+    position: relative;
+    left: 170px;
+}
+.topmarron2{
+    position: relative;
+    left: 190px;
+    top: 250px;
+}
+.topblanco{
+    position: relative;
+    left: 80px;
+    top: 250px;
+}
+.imagentop{
+    position: relative;
+    top: 50px;
+}
+/*CONTACTO*/
+.letraDeContacto{
+    font-size: 50px;
+    margin-top: 30px;
+    font-family: 'KoHo', sans-serif;;
+}
+.margen2{
+    margin-top: 30px;
+}
+.margen3{
+    padding: 15px;
+}
+.bordes{
+    border: 1px solid black;
+}
+.contacto1{
+    font-size: 40px;
+   text-decoration: underline; 
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding: 15px;
+}
+.contacto2{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}   
+/*DEVOLUCION*/
+.devolucion{
+    font-family:'KoHo', sans-serif ;
+    font-weight: bold;
+    position: relative;
+    left: 30px;
+}
+.p{
+    position: relative;
+    left: 30px;
+    text-decoration: underline;
+}
