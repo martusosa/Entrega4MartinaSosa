@@ -1,0 +1,25 @@
+{
+  "name": "clase14",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martusosa/clase14_.git"
+  },
+  "author": "martusosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martusosa/clase14_/issues"
+  },
+  "homepage": "https://github.com/martusosa/clase14_#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7",
+    "nodesass": "0.0.2-security"
+  }
+}
